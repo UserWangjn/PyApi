@@ -1,0 +1,5 @@
+[0;32m[2020-03-15 16:55:50,880]-[INFO] case01_Login.py--> setUpClass ----->Weather/query测试用例开始执行[0m
+[0;32m[2020-03-15 16:55:50,880]-[INFO] case01_Login.py--> setUpClass ----->URL获取成功, URL:http://apis.juhe.cn/simpleWeather/query[0m
+[0;32m[2020-03-15 16:55:50,880]-[DEBUG] case01_Login.py--> test_1 ----->('data:', "{'city': '北京', 'key': 'null'}")[0m
+[0;32m[2020-03-15 16:55:51,004]-[DEBUG] case01_Login.py--> test_1 ----->('r = requests.post>>>', '<Response [200]>')[0m
+[0;32m[2020-03-15 16:55:51,004]-[DEBUG] case01_Login.py--> test_1 ----->{'resultcode': '101', 'reason': '错误的请求KEY', 'result': None, 'error_code': 10001}[0m

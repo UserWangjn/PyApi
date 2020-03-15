@@ -1,0 +1,4 @@
+[0;32m[2020-03-15 17:05:18,013]-[DEBUG] get_log.py--> <module> ----->this is a debug log[0m
+[0;32m[2020-03-15 17:05:18,013]-[INFO] get_log.py--> <module> ----->this is a info log[0m
+[0;32m[2020-03-15 17:05:18,014]-[ERROR] get_log.py--> <module> ----->this is a error log[0m
+[0;32m[2020-03-15 17:05:18,014]-[WARNING] get_log.py--> <module> ----->this is a warning log[0m

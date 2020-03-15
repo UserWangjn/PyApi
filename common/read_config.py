@@ -22,7 +22,7 @@ class ReadIni(object):
             self.node = 'HTTP'
         else:
             self.node = node
-
+        # self.conf是load_ini方法返回的ConfigParser配置文件的操作句柄
         self.conf = self.load_ini(file_name)
 
     # 加载文件
@@ -34,6 +34,7 @@ class ReadIni(object):
 
     # 获取Value值
     def get_value(self, key):
+        # self.conf操作句柄.get可以获得入参的配置结果
         data = self.conf.get(self.node, key)
         return data
 

@@ -32,7 +32,7 @@ class TestLogs(object):
         # 生成日志文件的开关，为debug模式，不生成文件
         if GetValue.is_debug == 'False':
             # 生成文件路径
-            file_name = datetime.datetime.now().strftime("%Y-%m-%d")+".log"
+            file_name = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")+".log"
 
             # 获取当前目录的绝对路径
             cur_path = os.path.abspath(__file__)
